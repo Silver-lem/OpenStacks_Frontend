@@ -1,0 +1,60 @@
+/* Book Details Page */
+.book-details {
+  padding: 4rem 3rem;
+  background: #fdfcfb;
+}
+
+.book-details-card {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.08);
+}
+
+.book-image img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.book-info h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.book-info p {
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+}
+
+.book-info .description {
+  margin: 1.2rem 0;
+  opacity: 0.85;
+}
+
+.status {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.actions {
+  margin-top: 2rem;
+}
+
+.actions .btn {
+  margin-right: 1rem;
+}
+
+.note {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f6f3ef;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
