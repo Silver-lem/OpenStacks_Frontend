@@ -25,3 +25,7 @@
 .contact-form textarea {
   min-height: 120px;
 }
+
+.page-content {
+  flex: 1;
+}
